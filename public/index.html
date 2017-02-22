@@ -4,29 +4,97 @@
     <!-- Meta Information -->
     <title>Tweeter - Home Page</title>
 
+    <!-- Google Fonts: Roboto -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
+
+    <!-- Hover Icons- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
     <!-- External CSS -->
-    <link rel="stylesheet" href="/vendor/normalize-4.1.1.css" type="text/css" />
+    <link rel="stylesheet" href="./vendor/normalize-4.1.1.css" type="text/css" />
 
     <!-- App CSS -->
-    <link rel="stylesheet" href="/styles/layout.css" type="text/css" />
+    <link rel="stylesheet" href="./styles/layout.css" type="text/css" />
+
+    <!-- Nav CSS -->
+    <link rel="stylesheet" href="./styles/nav.css" type="text/css" />
+
+    <!-- New-Tweet CSS -->
+    <link rel="stylesheet" href="./styles/new-tweet.css" type="text/css" />
+
+    <!-- Tweet-feed CSS -->
+    <link rel="stylesheet" href="./styles/tweet-feed.css" type="text/css" />
 
     <!-- External JS -->
-    <script type="text/javascript" src="/vendor/jquery-2.2.3.min.js"></script>
+    <script type="text/javascript" src="./vendor/jquery-2.2.3.min.js"></script>
 
     <!-- App JS -->
-    <script type="text/javascript" src="/scripts/app.js"></script>
+    <script type="text/javascript" src="./scripts/app.js"></script>
+
+    <!-- Char Counter JS -->
+    <script type="text/javascript" src="./scripts/composer-char-counter.js"></script>
+
+    <!-- Tweet Hover JS -->
+    <script type="text/javascript" src="./scripts/tweet-hover-interact.js"></script>
+
   </head>
 
   <body>
 
     <!-- Top nav bar (fixed) -->
     <nav id="nav-bar">
-      <img class="logo" src="/images/bird.png" width="80px" height="80px">
+      <img class="logo" src="./images/bird.png">
       <span class="header">Tweeter</span>
     </nav>
 
     <!-- Page-specific (main) content here -->
     <main class="container">
+
+      <section class="new-tweet">
+
+        <h2>Compose Tweet</h2>
+
+        <form method="POST" action="/tweets/">
+
+          <textarea name="text" placeholder="What are you humming about?"></textarea>
+
+          <input type="submit" value="Tweet">
+
+          <span class="counter">140</span>
+
+        </form>
+
+      </section>
+
+      <section id="tweets">
+
+        <article class="tweet-feed">
+          <header>
+            <img class="avatar" src="./images/user/profile.png">
+            <span class="username"> Bill Fields </span>
+            <span class="user-handle">@MrFields</span>
+          </header>
+
+          <p class="tweet">
+            Lookin' good! You know what a vole is, Morty? You know what a vole is? Oh good job Morty! You killed my best customer but you saved a mind.
+          </p>
+
+
+          <footer>
+            <span class="tweet-age">10 days ago</span>
+
+            <span class="icons">
+              <i class="fa fa-flag" aria-hidden="true"></i>
+              <i class="fa fa-retweet" aria-hidden="true"></i>
+              <i class="fa fa-heart" aria-hidden="true"></i>
+            </span>
+          </footer>
+        </article>
+
+
+
+      </section>
+
     </main>
 
   </body>

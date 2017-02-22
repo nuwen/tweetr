@@ -1,0 +1,37 @@
+
+.counter {
+  font-style: italic;
+  float: right;
+}
+
+form {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  border-bottom: 2px solid #000000;
+  color: #244751;
+  margin: 0px 0px 20px 0;
+  font-family: 'Roboto', sans-serif;
+}
+.overlimit {
+  color: #FF0000;
+}
+
+.new-tweet {
+  background: #eee;
+  border-radius: 7px;
+  border: 1px solid #b5b5b5;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: 100%;
+
+}
+
+textarea {
+  margin: auto;
+  height: 50px;
+  width: 100%;
+}
