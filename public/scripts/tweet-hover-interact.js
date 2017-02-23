@@ -1,12 +1,15 @@
-$(document).ready( function() {
+$(document).ready(function() {
 
-  $('.tweet-feed').on('mouseenter', function() {
+  $(document).on('mouseenter', '.tweet-feed', function() {
+    console.log(this);
     var icons = $(this).find('.fa');
     icons.toggleClass('visible');
   });
 
-  $('.tweet-feed').on('mouseleave', function() {
+  $(document).on('mouseleave', '.tweet-feed', function() {
     var icons = $(this).find('.fa');
     icons.toggleClass('visible');
   });
+
+  console.log($('.tweet-feed'));
 });

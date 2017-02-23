@@ -13,7 +13,6 @@ h2 {
   border-bottom: 2px solid #000000;
   color: #244751;
   margin: 0px 0px 20px 0;
-  font-family: 'Roboto', sans-serif;
 }
 .overlimit {
   color: #FF0000;
@@ -23,15 +22,19 @@ h2 {
   background: #eee;
   border-radius: 7px;
   border: 1px solid #b5b5b5;
+  display: none;
+  height: 200px;
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
   width: 100%;
-
 }
+
+
 
 textarea {
   margin: auto;
-  height: 50px;
+  height: 100px;
   width: 100%;
+  padding: 5px;
 }
