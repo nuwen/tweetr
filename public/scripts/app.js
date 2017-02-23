@@ -139,6 +139,8 @@ $(function() {
       }).then(function(data) {
 
         loadTweets();
+        $content.val('');
+        $('.counter').text('140');
 
       }).fail(function(xhr, err) {
         console.log(err);

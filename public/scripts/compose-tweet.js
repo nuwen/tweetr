@@ -5,18 +5,3 @@ $(function() {
     $('textarea').focus();
   });
 });
-
-
-
-// $(document).ready( function() {
-//
-//   $('.compose').on('click', function() {
-//
-//     $('n').toggleClass('visible');
-//   });
-//
-//   $('.tweet-feed').on('mouseleave', function() {
-//     var icons = $(this).find('.fa');
-//     icons.toggleClass('visible');
-//   });
-// });
