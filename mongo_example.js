@@ -9,6 +9,8 @@ MongoClient.connect(MONGODB_URI, (err, db) => {
     throw err;
   }
 
+    console.log(`Connected to mongodb: ${MONGODB_URI}`);
+
   // ==> We have a connection to the "test-tweets" db,
   //     starting here.
   console.log(`Connected to mongodb: ${MONGODB_URI}`);

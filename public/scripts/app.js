@@ -106,7 +106,7 @@ function renderTweets(tweets) {
 $(function() {
 
   function loadTweets() {
-
+    console.log('tweets load');
 
 
     console.log('button clicked');
@@ -119,7 +119,6 @@ $(function() {
       console.log(err);
       alert('failed to load');
     });
-
   }
 
   $('#tweet-submit').on('click', function(event) {
@@ -130,6 +129,7 @@ $(function() {
     const $form = $(this).closest('form');
     const $content = $form.find('textarea');
     const contentLength = $content.val().length;
+    console.log('click registered');
 
     if ((contentLength <= 140) && (contentLength >= 1)) {
       $.ajax({
@@ -147,7 +147,7 @@ $(function() {
         alert('failed to like');
       });
     } else {
-      alert('ERROR: CHANGE TO FLASH MESSAGE');
+      alert('ERROR: CHANGE TO FLASH MESSAGE'); //change to flash message
     }
   });
 
