@@ -1,7 +1,6 @@
 $(document).ready(function() {
 
   $(document).on('mouseenter', '.tweet-feed', function() {
-    console.log(this);
     var icons = $(this).find('.fa');
     icons.toggleClass('visible');
   });

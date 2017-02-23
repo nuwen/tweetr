@@ -80,7 +80,7 @@ function createTweetElement(data) {
   });
   const $icons = $('<span></span>', {
     'class': 'icons',
-    html: '<i class="fa fa-flag" aria-hidden="true"></i><i class="fa fa-retweet" aria-hidden="true"></i><i class="fa fa-heart" aria-hidden="true"></i>'
+    html: '<i class="fa fa-flag ico" aria-hidden="true"></i><i class="fa fa-retweet ico" aria-hidden="true"></i><i class="fa fa-heart ico" aria-hidden="true"></i>'
   });
   const $footer = $('<footer></footer').append($age, $icons);
 
@@ -120,6 +120,8 @@ $(function() {
       alert('failed to load');
     });
   }
+
+  loadTweets();
 
   $('#tweet-submit').on('click', function(event) {
     event.preventDefault();
