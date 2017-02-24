@@ -149,7 +149,7 @@ $(function() {
 
       }).fail(function(xhr, err) {
         console.log(err);
-        alert('failed to like');
+        alert('Server Error: is it even ON?!');
       });
     } else {
       alert('ERROR: CHANGE TO FLASH MESSAGE'); //change to flash message

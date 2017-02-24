@@ -29,11 +29,12 @@
     background: #8af0e0;
     float: right;
     height: 70%;
-    width: 100px;
+    width: 105px;
     margin-top: 12px;
 }
 
 #comPencil {
+
     color: #00a087;
     float: left;
     opacity: 1;
@@ -42,6 +43,7 @@
 
 #comText {
     color: #00a087;
+    float:
     font-family: 'Roboto', sans-serif;
     font-size: auto;
 }
