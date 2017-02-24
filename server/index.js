@@ -6,7 +6,25 @@ const PORT = 8080;
 const express = require("express");
 const bodyParser = require("body-parser");
 const app = express();
-const {MongoClient} = require('mongodb');
+const sassMiddleware = require('node-sass-middleware');
+const path = require('path');
+
+app.use(sassMiddleware({
+  /* Options */
+  src: '../public/sass',
+  dest: '../public/styles',
+  debug: true,
+  outputStyle: 'compressed',
+  prefix: '../public' // Where prefix is at <link rel="stylesheets" href="prefix/style.css"/>
+}));
+
+app.use('../public', express.static(path.join(__dirname, '../public')));
+
+
+
+const {
+  MongoClient
+} = require('mongodb');
 const MONGODB_URI = "mongodb://localhost:27017/tweeter";
 
 app.use(bodyParser.urlencoded({
