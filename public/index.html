@@ -40,7 +40,9 @@
     <!-- Compose Button JS -->
     <script type="text/javascript" src="./scripts/compose-tweet.js"></script>
 
-
+    <script type="text/javascript" src="./scripts/error.js"></script>
+    <link rel="stylesheet" href="./styles/errornotifcation.css" type="text/css" />
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
   </head>
 
   <body>
@@ -104,6 +106,16 @@
       </section>
 
     </main>
+
+    <div id="error-notifcation">
+      <p id="error-load">Something's wrong!</p>
+      <ul>
+        <li>You can't tweet nothing!</li>
+        <li>Sorry tweeting dead silence doesn't work, try something else</li>
+        <li>You've got too many character Mr.Tru-..</li>
+        <li>Oops! Our server hamster needs more food :(</li>
+      </ul>
+    </div>
 
   </body>
 </html>
