@@ -131,7 +131,10 @@ $(function() {
     const $form = $(this).closest('form');
     const $content = $form.find('textarea');
     const contentLength = $content.val().length;
-    console.log('click registered');
+    if(/^\s+$/.test($content.val())){
+      alert('Must enter something!');
+      return;
+    }
 
     if ((contentLength <= 140) && (contentLength >= 1)) {
       $.ajax({
