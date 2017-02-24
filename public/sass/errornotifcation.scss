@@ -1,33 +1,22 @@
 #error-notifcation {
-    position:absolute;
-    z-index: 1200;
-    top: 140px;
-    left: 290px;
-    display: none;
-    width: 350px;
-    padding: 7px;
-    color: #FFFFFF;
-    border: 1px solid #000000;
-    border-radius: 10px;
-    background: rgba(0, 0, 0, 0.65);
-    font-family: 'Roboto', sans-serif;
-    font-size: 0.7em;
-    margin-left: auto;
-    margin-right: auto;
+  position: absolute;
+  z-index: 1000;
+  top: 200px;
+  left: 50%;
+  display: none;
+  width: 15%;
+  padding: 10px;
+  color: #fff;
+  border: 3px solid #FF0000;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.65);
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.7em;
+  transform: translate(-50%);
+
 }
 
-.error1 {
-    display: none;
-}
+.error1, .error2, .error3, .error4 {
+  display: none;
 
-.error2 {
-    display: none;
-}
-
-.error3 {
-    display: none;
-}
-
-.error4 {
-    display: none;
 }

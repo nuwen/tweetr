@@ -7,12 +7,9 @@ form {
   margin-right: auto; }
 
 h2 {
-  border-bottom: 2px solid #000000;
+  border-bottom: 2px solid #000;
   color: #244751;
-  margin: 0px 0px 20px 0; }
-
-.overlimit {
-  color: #FF0000; }
+  margin: 0 0 20px; }
 
 .new-tweet {
   background: #eee;
@@ -24,6 +21,9 @@ h2 {
   margin-right: auto;
   padding: 10px;
   width: 100%; }
+
+.overlimit {
+  color: #f00; }
 
 textarea {
   margin: auto;

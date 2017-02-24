@@ -76,7 +76,7 @@ $(function() {
     $('#error-notifcation').fadeIn({
       queue: false
     }).animate({
-      top: '150px'
+      // top: '150px'
     });
 
     $('.error' + code).css('display', 'inline');
@@ -87,9 +87,9 @@ $(function() {
       $(this).fadeOut({
         queue: false
       }).animate({
-        top: '150px'
+        // top: '150px'
       });
-      $('.error' + code).css('display', 'none');
+      $('.error' + code).fadeOut();
     });
 
   }
