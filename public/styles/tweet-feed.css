@@ -1,80 +1,69 @@
 .avatar {
-    border-radius: 7px;
-    float: left;
-    height: 60px;
-    width: 60px;
-    margin-right: 10px;
-}
+  border-radius: 7px;
+  float: left;
+  height: 60px;
+  width: 60px;
+  margin-right: 10px; }
 
 .ico {
-    color: #56e2d5;
-    float: right;
-    margin-left: 10px;
-    opacity: 0;
-    transition: opacity 0.5s;
-}
+  color: #56e2d5;
+  float: right;
+  margin-left: 10px;
+  opacity: 0;
+  transition: opacity 0.5s; }
 
 .ico:hover {
-    color: #FF0000;
-    opacity: 1;
-}
+  color: #FF0000;
+  opacity: 1; }
 
 footer {
-    border-top: 2px solid #e9e9e9;
-    padding: 10px;
-}
+  border-top: 2px solid #e9e9e9;
+  padding: 10px; }
 
 .handleName {
-    color: #244751;
-    margin: 0px 0px 20px 0;
-}
+  color: #244751;
+  margin: 0px 0px 20px 0; }
 
 header {
-    background: #f0f0f0;
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
-    height: 80px;
-    padding: 10px;
-}
+  background: #f0f0f0;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  height: 80px;
+  padding: 10px; }
 
 .tweet {
-    padding: 0px 10px 0px 10px;
-    overflow-wrap: break-word;
-}
+  padding: 0px 10px 0px 10px;
+  overflow-wrap: break-word; }
 
 .tweet-age {
-    font-size: .75em;
-}
+  font-size: .75em; }
 
 .tweet-feed {
-    background: #FFFFFF;
-    border-radius: 7px;
-    border: 1px solid #b5b5b5;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    opacity: .75;
-    width: 100%;
-    transition: border 0.5s;
-    transition: opacity 0.5s
-}
+  background: #FFFFFF;
+  border-radius: 7px;
+  border: 1px solid #b5b5b5;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  opacity: .75;
+  width: 100%;
+  transition: border 0.5s;
+  transition: opacity 0.5s; }
 
 article.tweet-feed:hover {
-    opacity: 1;
-}
+  opacity: 1; }
 
 .visible {
-    opacity: 1;
-}
+  opacity: 1; }
 
 .user-handle {
-    float: right;
-    line-height: 30px;
-}
+  float: right;
+  line-height: 30px; }
 
 .username {
-    color: #244751;
-    font-size: 2em;
-    font-weight: 700;
-    font-family: 'Roboto', sans-serif;
-}
+  color: #244751;
+  font-size: 2em;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif; }
+
+/*# sourceMappingURL=tweet-feed.css.map */

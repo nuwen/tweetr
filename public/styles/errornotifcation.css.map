@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,kBAAmB;EACf,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,mBAAmB;EAC/B,MAAM,EAAE,iBAAiB;EACzB,aAAa,EAAE,IAAI;EACnB,KAAK,EAAE,OAAO;EACd,WAAW,EAAE,oBAAoB;EACjC,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,GAAG;EACZ,QAAQ,EAAE,KAAK;EACf,GAAG,EAAE,KAAK;EACV,IAAI,EAAE,KAAK;EACX,OAAO,EAAE,IAAI",
+"sources": ["../sass/errornotifcation.scss"],
+"names": [],
+"file": "errornotifcation.css"
+}
