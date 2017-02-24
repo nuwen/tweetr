@@ -1,15 +1,33 @@
 #error-notifcation {
-    display: none;
-    background: rgba(0, 0, 0, 0.65);
-    border: 1px solid #000000;
-    border-radius: 10px;
-    color: #FFFFFF;
-    font-family: 'Roboto', sans-serif;
-    font-size: .7em;
-    width: 350px;
-    padding: 7px;
-    position: fixed;
+    position:absolute;
+    z-index: 1200;
     top: 140px;
     left: 290px;
-    z-index: 1200;
+    display: none;
+    width: 350px;
+    padding: 7px;
+    color: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.65);
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.7em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.error1 {
+    display: none;
+}
+
+.error2 {
+    display: none;
+}
+
+.error3 {
+    display: none;
+}
+
+.error4 {
+    display: none;
 }
